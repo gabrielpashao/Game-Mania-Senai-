@@ -1,0 +1,92 @@
+/*cabeçalho*/
+
+header img{
+    height: 70px;
+    width: 70px;
+}
+
+/*Conteudo principal*/
+
+main {
+    min-height: 500px;
+}
+
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h2{
+    color: #5270FF
+}
+
+/*banner*/
+#section-banners img { 
+    height: 600px;
+}
+
+/*Destaques*/
+#section-destaques, #section-categorias {
+    text-align: center;
+}
+
+#section-destaques h2, #section-categorias h2{
+    font-weight: bold;
+}
+
+#section-destaques .card, #section-categorias .card{
+    margin: 0.5%;
+    background-color: #222C6A;
+    color: #5270FF;
+    border-radius: 10px;
+}
+
+#section-destaques img, #section-categorias img{
+    height: 70%;
+}
+
+#section-destaques h6, #section-categorias h6{
+    font-weight: bold;
+}
+
+/*Rodapé*/
+
+/*Botão Voltar topo*/
+
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+    width: 5%;
+    height: 4%;
+}
+
+/* página de login  */
+
+#section-login{
+    margin-top: 100px;
+    color: #5270FF;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    color: #5270FF;
+}
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
